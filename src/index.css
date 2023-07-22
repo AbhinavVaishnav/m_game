@@ -7,7 +7,7 @@ html, body{
 }
 body{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background-color: #fae19d;
+  background-color: #5f69a3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,7 +15,8 @@ body{
 
 h1{
   text-align: center;
-  margin-bottom: 1em;
+  margin-bottom: 10em;
+  color: rgb(199, 46, 46);
 }
 .container{
   height: 700px;
@@ -23,7 +24,7 @@ h1{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  gap: 1em;
+  gap: 2em;
 }
 
 .card{
